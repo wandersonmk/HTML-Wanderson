@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+/* Border box sempre vai limitar as medidas mantendo o tamanho original
+   Content box conforme vai adicionando mais coisas ele vai sempre aumentando */
+
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: #6959CD;
+    padding: 50px;
+   
+    /* Atalho do relogio*/
+    margin: 50px 50px 10px 50px;
+    /*      12h   15h  18h   21h* se adicionar apenas 2 ele seta para os quatro lados*/
+   
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin-left: 50px;
+    background: #00b327;
+     
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin-left: 50px;
+    background: #00b327;
+     
+}

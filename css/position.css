@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.pai {
+    background: rgb(8, 0, 128);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+.link-menu {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    color: #d6d6d6;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+
+.link-menu:hover {
+    color:  rgb(132, 0, 255);
+    
+}
+
+.links {
+    margin-left: 100px;
+  
+}
+
+.btn-menu {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    color: #d6d6d6;
+    background: rgb(0, 153, 8);
+    cursor: pointer; 
+}
+
+.btn-menu:hover {
+    background: rgb(187, 0, 187);
+    transition: transform .5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+
+img {
+    margin: 100px 0 0 200px;
+    display: inline-block;
+}
+.video1 {
+    display: inline-block;
+    margin: 50px 0 0 80px;
+    filter: drop-shadow(8px 15px 5px rgba(0,.0,.0,0.25));
+    cursor: pointer;
+    
+    
+    
+   
+}
+.titulo-video {
+    
+    position: absolute;
+    margin: -20px 0 0px 280px;
+}
+
+h1 {
+   
+}
+h2 {
+    position: absolute;
+    margin: 20px 0 2px 380px;
+  
+}
+
+h5 {
+    width: 500px;
+    display: inline-block;
+    margin-top: 1200px;
+   
+}
+
+
+
+input {
+    margin-left: 150px;
+}

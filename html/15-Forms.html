@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/02-aula.css">
+    <title>Formulário</title>
+</head>
+
+<body class="pai">
+    <!--Formulário de dados-->
+    
+    <form>
+        <h1 id="titulo">Digite o seu endereço</h1>
+        <!--label serve para escrever o nome do input na frente - Semantico com o google - -->
+        <div class="filho">
+        <label>
+            Rua:
+            <input type="text" name="rua" autocomplete="street-address" autofocus class="rua">
+            <!-- type = tipo - autocomplete = para completar os dados automátic -->
+        </label>
+
+        <label> Nº
+            <input type="number" name="numero" class="n">
+        </label>
+
+        <label>
+            Foto:
+            <input type="file" name="arquivo" id="inputFile" class="input">
+        </label>
+
+      <div class="btns">
+        <button type="submit" id="btnEnviar" class="btnn">Eviar dados</button>
+        <button type="reset" id="btnReset">Limpar campos</button>
+    
+    
+
+  
+    </form>
+
+
+
+
+</body>
+
+
+</html>

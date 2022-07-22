@@ -1,0 +1,118 @@
+button {
+
+    width:170px;
+    height: 45px;
+    font-family: verdana;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    border-radius: 10px;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    color: width;
+    cursor: pointer;
+    
+    
+}
+body {
+    color: white;
+    background-color: black;
+
+}
+
+
+
+#btnmk :hover {
+
+    background-color: rgb(151, 0, 108);
+    border: none;
+    transition: transform .5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: antiquewhite;
+   
+}
+
+#btn2:hover {
+
+    background-color: rgb(27, 202, 0);
+    transition: transform .5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-bottom: 100px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+#fig{
+
+    margin-left: 280px;
+    font-family: "Arial Black";
+    border-radius: 10px;
+    margin-top: -600px;
+    color: rgb(0, 255, 8);
+}
+#btn2{
+
+    margin-left: 10px;
+}
+
+#foto{ 
+    margin-left: 500px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+
+}
+#foto:hover{
+    transition: transform .5s ease-in;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 200px;
+    border-color: aqua;
+    cursor: pointer;
+}
+
+#botoes {
+    margin-left: 845px;
+}
+#hist{
+    padding-left: 900px;
+    
+
+}
+#apre {
+    margin-left: 500px;
+}
+#meta1 {
+
+    margin-left: 940px;
+}
+#metas {
+    margin-left: 860px;
+}
+#pessoas{
+
+    margin-left: 810px;
+}
+#nomes{
+
+    margin-left: 860px;
+}
+#btntop{
+    margin-left: 960px;
+  
+}
+
+#btntop:hover{
+    background-color: rgb(27, 202, 0);
+    transition: transform .5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 20px;
+    
+    margin-left: 960px;
+    color: rgb(255, 255, 255);
+}
+.tab {
+    border-color: blue;
+}
